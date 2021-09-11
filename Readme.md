@@ -1,1 +1,1 @@
-Tela de login simples utilizando HTML,CSS e JS puro!
+Tela de login simples utilizando HTML, CSS e JS puro!
