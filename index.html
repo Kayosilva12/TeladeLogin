@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Controle de vendas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+        <h3>Fazer login</h3>
+        <input id="email" type="text" nome="email" placeholder="Seu e-mail..." />
+        <input id="password" type="password" nome="senha" placeholder="Sua senha..." />
+        <input type="submit" nome="acao" value="Enviar" />
+    </form>
+    <script>
+        var email = document.getElementById('email');
+        var password = document.getElementById('password');
+
+        email.addEventListener('focus',()=>{
+            email.style.borderColor = "#0aa1a1";
+        });
+        email.addEventListener('blur',()=>{
+            email.style.borderColor = "#b0e0e6";
+        });
+        password.addEventListener('focus',()=>{
+            password.style.borderColor = "#0aa1a1";
+        });
+        password.addEventListener('blur',()=>{
+            password.style.borderColor = "#b0e0e6";
+        });
+
+
+    </script>
+</body>
+</html>
